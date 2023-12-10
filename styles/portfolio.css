@@ -25,7 +25,7 @@ h2{
     font-size: 64px;
 }
 
-h4 {
+h3 {
     font-size: 48px;
 }
 
@@ -102,6 +102,10 @@ p{
     padding: 15px 30px;
 }
 
+.btn-branding:hover{
+    border: 1px solid #362419;
+}
+
 .btn-branding-outline{
     border-radius: 4px;
     color: var(--secondary-color);
@@ -109,6 +113,13 @@ p{
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+}
+
+.btn-branding-outline:hover{
+    background-color: #F8F1E7;
+    color:#362419;
+    border: 1px solid #362419;
+    transition: all 100ms ease-in-out;
 }
 
 .project-description{
@@ -154,7 +165,7 @@ nav a {
     transition: all 100ms ease-in-out;
 }
 
-nav a:hover, nav li.active a{
+nav a:hover, nav li.active a {
     color: var(--secondary-color);
 }
 
@@ -207,17 +218,13 @@ footer .social-links a:hover{
         font-size: 44px;
     }
 
-    h4 {
+    h3 {
         font-size: 26px;
-    }
-
-    .hero{
-        padding: 80px 20px;
     }
 
     .content-container {
         text-align: center;
-        padding: 0;
+        padding: 100px 0;
     }
     .project-description {
         padding: 0;
