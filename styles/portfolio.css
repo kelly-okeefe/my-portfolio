@@ -29,6 +29,21 @@ h3 {
     font-size: 48px;
 }
 
+h3 a {
+    color: #362419;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: #B06500;
+    text-decoration: underline;
+}
+
+h3 a::after {
+    color: #362419;
+    text-decoration: none;
+}
+
 .hero h2{
     font-family: 'Poppins', sans-serif;
     font-weight: normal;
